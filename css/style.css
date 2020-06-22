@@ -1,0 +1,203 @@
+body{
+    background-color: #EFEFEF; 
+    font-size: .9rem;
+}
+.background-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.banner {
+    background-image: 
+    linear-gradient(to right, rgba(30, 30, 31, 0.644), rgba(30, 30, 31, 0.644)),
+    url('../images/banner.jpg');
+    height: 90vh;
+}
+.banner > .jumbotron > .container{
+    height: 81.5vh;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.267) !important;
+}
+.features-card-header{
+    height: 150px;
+}
+#otp{
+    background-image: url('../images/OTP_1.gif');
+}
+#email-notifications{
+    background-image: url('../images/notification.png');
+}
+#DND-notifications{
+    background-image: url('../images/DND.jpg');
+}
+#smsFromSpreadsheet{
+    background-image: url('../images/excelSpreadsheet.png');
+}
+#high-res-messages{
+    background-image: url('../images/GIF.gif');
+}
+#authentication{
+    background-image: url('../images/Login.jpg');
+}
+#number-lookup{
+    background-image: url('../images/lookUp.png');
+}
+#sub-account{
+    background-image: url('../images/sub-account.png');
+}
+#reseller{
+    background-image: url('../images/reseller.png');
+}
+#regional-sms{
+    background-image: url('../images/regional-sms.png');
+}
+#multi-channel-communication{
+    background-image: url('../images/Multichannel.png');
+}
+#voice-api{
+    background-image: url('../images/voice-api.jfif');
+}
+
+#two-way-communication{
+    background-image: 
+    linear-gradient(to right, rgba(226, 226, 226, 0.918) 25%, rgba(226, 226, 226, 0)),
+    url('../images/two-way-communication.jpg');
+    height: 450px;
+}
+footer{
+    background-color:  #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay{
+    background-image: linear-gradient();
+}
+.categories{
+    position: relative;
+    bottom:80px;
+    background-color: #813772;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+}
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+#mentors-section{
+    position: relative;
+}
+.mentors-card{
+    max-width: 400px;
+}
+/* .card, .user-thumb{
+    -webkit-box-shadow: -1px 2px 3px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 3px -2px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 3px -2px rgba(0,0,0,0.75);
+} */
+.chevron-left{
+    left: -10px;
+}
+.chevron-right{
+    right: -10px;
+}
+.chevron-left, .chevron-right{
+    position: absolute;
+    top: 195px;
+    z-index: 1000;
+    -webkit-box-shadow: 2px 14px 12px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 14px 12px -13px rgba(0,0,0,0.75);
+    box-shadow: 2px 14px 12px -13px rgba(0,0,0,0.75);
+}
+.btn-purple{
+    background-color: #813772;
+    color: white;
+}
+.btn-purple:hover{
+    background-color: #4e2346;
+    color: white;
+}
+.bg-primary-blue{
+    background-color: #062f4f;
+    color: white;
+}
+.border-primary-blue{
+    border: 1.5px solid #062f4f;
+}
+.text-primary-blue{
+    color: #02223b;
+}
+.btn-primary-blue{
+    background-color: #062f4f;
+    color: whitesmoke;
+}
+.btn-primary-blue:hover{
+    background-color: #011f38;
+    color: whitesmoke;
+}
+.btn-orange{
+    color: rgb(211, 42, 0);
+    border: 1px solid rgb(211, 42, 0);
+    background-color: white;
+}
+.bg-orange,.btn-orange:hover{
+    background-color: rgb(189, 45, 9);
+    border: 1px solid rgb(189, 45, 9);
+    color: white;
+}
+
+
+
+.font-weight-bold{
+    font-weight: 600 !important;
+}
+.main{
+    margin-left: 400px;
+} 
+.navbar{
+    z-index: 1000;
+}
+.sidebar-active, .bg-secondary-blue{
+    background-color: #beceda;
+}
+.notifications > div:hover{
+    background-color: #02223b24;
+}
+.checked{
+    color: orange;
+}
+.profile-bg{
+    height: 187px;
+    background-color: #02223b24;
+}
+
+#sidebar{
+    height: 90vh;
+}
+@media only screen and (min-width: 768px) {
+    #sidebar{
+        position: sticky;
+        top: 91px;
+    } 
+    .navbar > ul > a > img{
+        width: 23px;
+    } 
+}
+  
